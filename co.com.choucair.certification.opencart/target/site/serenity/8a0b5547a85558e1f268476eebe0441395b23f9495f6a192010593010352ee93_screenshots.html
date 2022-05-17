@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Proyecto Reto LATAM</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="117a4224e7f4b5834d302d3cd183593a29935e75b2675983f473e3cde8bb3ddc.html">Verificar El Optimo Funcionamiento Del Modulo De Clientes</a></span>
+                > <span class="truncate-60"><a
+                    href="8a0b5547a85558e1f268476eebe0441395b23f9495f6a192010593010352ee93.html">Eliminar un cliente de forma fallida </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-05-2022 16:29</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Verificar El Optimo Funcionamiento Del Modulo De Clientes </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Yo como usuario de OpenCart
+Quiero ingresar a la aplicacion web
+Para obtener informacion sobre los clientes.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="fb0848617b1336b5fe11d625087fe07c3bbf366230d60bdc99228b3ebba2a3f7.html">Eliminarclientefallido
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="d48525189ecf3d5161638ad9047b8a480b578c9cbe796bd869d2ac72461d69d6.html">Pruebafuncional
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="test-case-title">
+                                <span class="error-color">Eliminar un cliente de forma fallida
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given Ana ingresa a OpenCart<br>And valida que se encuentra en el login de la app<br>When ingresa sus credenciales<br>And Navega por el Menu<br>And Busca un Cliente por Customer name<br>And Selecciona el cliente a eliminar<br>Then Valida que no se puede eliminar el cliente</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Null pointer exception">
+                            Null pointer exception
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    java.lang.NullPointerException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    co.com.choucair.certification.opencart.util.MetodosFuncionales.aceptarPopUp(MetodosFuncionales.java
+                                    :42) <br>
+                                    co.com.choucair.certification.opencart.tasks.Eliminar.performAs(Eliminar.java
+                                    :24) <br>
+                                    co.com.choucair.certification.opencart.stepdefinitions.OpenCartStepDefinitions.seleccionaElClienteAEliminar(OpenCartStepDefinitions.java
+                                    :68) <br>
+                                    ✽.Selecciona el cliente a eliminar(src/test/resources/features/adminopencart.feature
+                                    :63) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource818311564105478246.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="0a11eaeaa7c947fe47863448e190dadb6c55f28cdb34510a28be9bcfcaaa76ab.png" title="Given Ana ingresa a OpenCart" width="1366"/>
+                <img src="0a11eaeaa7c947fe47863448e190dadb6c55f28cdb34510a28be9bcfcaaa76ab.png" title="Ana opens the Open cart" width="1366"/>
+                <img src="0a11eaeaa7c947fe47863448e190dadb6c55f28cdb34510a28be9bcfcaaa76ab.png" title="And valida que se encuentra en el login de la app" width="1366"/>
+                <img src="0a11eaeaa7c947fe47863448e190dadb6c55f28cdb34510a28be9bcfcaaa76ab.png" title="Then confirmacion1 should be 'OpenCart'" width="1366"/>
+                <img src="3257c930dfd490cf0a27225b0f62025f22438ed978d99d9e93802fdcc5dfff8d.png" title="When ingresa sus credenciales
+| usuario | contrasena |
+| demo | demo |" width="1366"/>
+                <img src="14c538bf603e0f3721601da1b80e462ba03fed679f4f6c59054052ebaa1acdbd.png" title="Ana enters 'demo' into Escriba su usuario" width="1366"/>
+                <img src="6ea0dc6281c541f69cb69fbf85e450838d8af26bccb30f30d0fc54c755156131.png" title="Ana enters 'demo' into Escriba su contrase&ntilde;a" width="1366"/>
+                <img src="14a6cdfef8cdea11d449490e64ad0db271cbed01014eefb0ae281faf81fdd116.png" title="Ana clicks on Boton de confirmacion de login" width="1366"/>
+                <img src="552f19338116ac0543d6bebf75a6f33fa1ba0fb815e4ac045aec459023e45232.png" title="And Navega por el Menu
+| menu | submenu |
+| Customer | Customer |" width="1366"/>
+                <img src="fdbf564851912a20cfbb05dfa6a51e01715928f13330c6916f38434ec46cd4b4.png" title="Ana clicks on Menu Principal" width="1366"/>
+                <img src="552f19338116ac0543d6bebf75a6f33fa1ba0fb815e4ac045aec459023e45232.png" title="Ana clicks on Sub Menu" width="1366"/>
+                <img src="9c5ae6302f73f9b4be5c388a6c6f9cc44ffdaa91ecdf8c0c362635758a6ea2a2.png" title="And Busca un Cliente por Customer name
+| customername |
+| qwerty |" width="1366"/>
+                <img src="c89730918b5a03be50d03fa4efc6ccd29d18485b942d0990105ce473bc18a94d.png" title="Ana enters 'qwerty' into Cliente" width="1366"/>
+                <img src="9c5ae6302f73f9b4be5c388a6c6f9cc44ffdaa91ecdf8c0c362635758a6ea2a2.png" title="Ana clicks on Btn filtrar cliente" width="1366"/>
+                <img src="1e53c4d1472fe6a00a755a48baaaf1e01a2b27358b1006fc394ca9096ac7a3f3.png" title="Ana clicks on Btn Seleccionar Cliente" width="1366"/>
+                <img src="cc53cb52f4c1e32b8f599e88067af00357c77f2e890cd7a674c3978a14da79f8.png" title="Perform as: Ana: <span class='error-color'>ERROR</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

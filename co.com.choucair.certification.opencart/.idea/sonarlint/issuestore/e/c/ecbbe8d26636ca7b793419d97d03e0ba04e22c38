@@ -1,0 +1,13 @@
+
+t
+java:S1104"WMake BORRAR_USER a static final constant or non-public and provide accessors if needed.(≥îôÅ8Æ“é„à0
+t
+java:S1104"WMake BORRAR_PASS a static final constant or non-public and provide accessors if needed.(§»••8Åµë„à0
+N
+java:S1444"1Make this "public static BORRAR_USER" field final(≥îôÅ8Æ“é„à0
+N
+java:S1444"1Make this "public static BORRAR_PASS" field final(§»••8Åµë„à0
+s
+java:S3008"VRename this field "BORRAR_USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(≥îôÅ8Æ“é„à0
+s
+java:S3008"VRename this field "BORRAR_PASS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§»••8Åµë„à0

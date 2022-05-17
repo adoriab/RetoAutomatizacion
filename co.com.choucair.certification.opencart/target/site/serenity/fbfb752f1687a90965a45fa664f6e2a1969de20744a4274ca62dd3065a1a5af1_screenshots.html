@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Proyecto Reto LATAM</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="117a4224e7f4b5834d302d3cd183593a29935e75b2675983f473e3cde8bb3ddc.html">Verificar El Optimo Funcionamiento Del Modulo De Clientes</a></span>
+                > <span class="truncate-60"><a
+                    href="fbfb752f1687a90965a45fa664f6e2a1969de20744a4274ca62dd3065a1a5af1.html">Registro de cliente fallido </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-05-2022 16:29</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Verificar El Optimo Funcionamiento Del Modulo De Clientes </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Yo como usuario de OpenCart
+Quiero ingresar a la aplicacion web
+Para obtener informacion sobre los clientes.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="d48525189ecf3d5161638ad9047b8a480b578c9cbe796bd869d2ac72461d69d6.html">Pruebafuncional
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="15b1defe29977c63c8e3047459f567ffd1db795b627af0a173943f9dea95969f.html">Agregarclientefallido
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Registro de cliente fallido
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given Ana ingresa a OpenCart<br>And valida que se encuentra en el login de la app<br>When ingresa sus credenciales<br>And Navega por el Menu<br>And Agrega un cliente<br>Then Valida que no se pueden realizar registros</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="02462bc0bce2b0506ad46d37f770ae0940b8010d969a38e9ca895487ac187df1.png" title="Registro de cliente fallido #1: {usuario=demo, contrasena=demo, menu=Customer, submenu=Customer, firstname=Luis, lastname=Murillo, email=luism@gmail.com, telephone=3238975645, password=12345, confirm=12345}" width="1366"/>
+                <img src="0a11eaeaa7c947fe47863448e190dadb6c55f28cdb34510a28be9bcfcaaa76ab.png" title="Given Ana ingresa a OpenCart" width="1366"/>
+                <img src="0a11eaeaa7c947fe47863448e190dadb6c55f28cdb34510a28be9bcfcaaa76ab.png" title="Ana opens the Open cart" width="1366"/>
+                <img src="0a11eaeaa7c947fe47863448e190dadb6c55f28cdb34510a28be9bcfcaaa76ab.png" title="And valida que se encuentra en el login de la app" width="1366"/>
+                <img src="0a11eaeaa7c947fe47863448e190dadb6c55f28cdb34510a28be9bcfcaaa76ab.png" title="Then confirmacion1 should be 'OpenCart'" width="1366"/>
+                <img src="fa6a097bdfebc411743b2bee2e5a4cac9283224368b7d0c2c2f9f3c4748c23f3.png" title="When ingresa sus credenciales
+| usuario | contrasena |
+| demo | demo |" width="1366"/>
+                <img src="14c538bf603e0f3721601da1b80e462ba03fed679f4f6c59054052ebaa1acdbd.png" title="Ana enters 'demo' into Escriba su usuario" width="1366"/>
+                <img src="18eae05bea63a5d9ecac5d7ee7cfec55d24cac4c95ae5779f8a7f5a45aea88a5.png" title="Ana enters 'demo' into Escriba su contrase&ntilde;a" width="1366"/>
+                <img src="fa6a097bdfebc411743b2bee2e5a4cac9283224368b7d0c2c2f9f3c4748c23f3.png" title="Ana clicks on Boton de confirmacion de login" width="1366"/>
+                <img src="552f19338116ac0543d6bebf75a6f33fa1ba0fb815e4ac045aec459023e45232.png" title="And Navega por el Menu
+| menu | submenu |
+| Customer | Customer |" width="1366"/>
+                <img src="62f97e47f78e6fc0e476840fa45c966ee46a2c850a7800bcb788f88462a23b6d.png" title="Ana clicks on Menu Principal" width="1366"/>
+                <img src="552f19338116ac0543d6bebf75a6f33fa1ba0fb815e4ac045aec459023e45232.png" title="Ana clicks on Sub Menu" width="1366"/>
+                <img src="02462bc0bce2b0506ad46d37f770ae0940b8010d969a38e9ca895487ac187df1.png" title="And Agrega un cliente
+| firstname | lastname | email | telephone | password | confirm |
+| Luis | Murillo | luism@gmail.com | 3238975645 | 12345 | 12345 |" width="1366"/>
+                <img src="f77d4fcc4316a6a5b1caa71b127e1cb66d3b595613dbf1c9f2d60613b9fe2c31.png" title="Ana clicks on Btn Agregar cliente" width="1366"/>
+                <img src="16e92e195eae87f6dc65c1e281e7542647b0b97c49afe26579031adf4a2d4889.png" title="Ana enters 'Luis' into Firsname" width="1366"/>
+                <img src="d8416f4fe6f43f7b68fa8c47c2bead731dbeddc8942ecc98be0cf5da6c5ddebc.png" title="Ana enters 'Murillo' into Lastname" width="1366"/>
+                <img src="10001f3e8a3800e7c2fe1567f503c965efaaf67725103989adfd692aba6b545d.png" title="Ana enters 'luism@gmail.com' into Email" width="1366"/>
+                <img src="3284ac259de068b32abc2ab20c305c1b164222977d02caaf7499457d46da309d.png" title="Ana enters '3238975645' into Telephone" width="1366"/>
+                <img src="8d44c7fde5a8bbde6c126331a8db66d5a84748a2031db1681d87a3dbacdb9d21.png" title="Ana enters '12345' into Password" width="1366"/>
+                <img src="d3bc7d387296d58d460a08ef2b1750bab87178806a661b90c792626d37437623.png" title="Ana enters '12345' into Password" width="1366"/>
+                <img src="02462bc0bce2b0506ad46d37f770ae0940b8010d969a38e9ca895487ac187df1.png" title="Ana clicks on Btn guardar cliente" width="1366"/>
+                <img src="02462bc0bce2b0506ad46d37f770ae0940b8010d969a38e9ca895487ac187df1.png" title="Then Valida que no se pueden realizar registros" width="1366"/>
+                <img src="02462bc0bce2b0506ad46d37f770ae0940b8010d969a38e9ca895487ac187df1.png" title="Then confirmar reg should be 'Warning: You do not have permission to modify customers!\n&amp;times;': <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

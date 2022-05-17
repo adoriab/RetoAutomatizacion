@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Proyecto Reto LATAM</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="117a4224e7f4b5834d302d3cd183593a29935e75b2675983f473e3cde8bb3ddc.html">Verificar El Optimo Funcionamiento Del Modulo De Clientes</a></span>
+                > <span class="truncate-60"><a
+                    href="8476413f0a7c0ccbe213b6ae129486f67282696f7e0757025afad95190332241.html">Busqueda de cliente exitosa </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-05-2022 16:28</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Verificar El Optimo Funcionamiento Del Modulo De Clientes </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Yo como usuario de OpenCart
+Quiero ingresar a la aplicacion web
+Para obtener informacion sobre los clientes.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="eaa241baea7376bd51dcaa70cd5983b6c157d695af193cadb975927b8223f8ca.html">Busquedacliente
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="d48525189ecf3d5161638ad9047b8a480b578c9cbe796bd869d2ac72461d69d6.html">Pruebafuncional
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Busqueda de cliente exitosa
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given Ana ingresa a OpenCart<br>And valida que se encuentra en el login de la app<br>When ingresa sus credenciales<br>And Navega por el Menu<br>And Busca un Cliente por Customer name<br>Then Valida la IP de conexion</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="74bf2b354d0feb1d827e33210ceef1e74d9b2b2d2bd56a7f27e5dab382499aba.png" title="Busqueda de cliente exitosa #1: {usuario=demo, contrasena=demo, menu=Customer, submenu=Customer, customername=Ana Maria Colorado Bedoya, ip=172.69.206.146}" width="1366"/>
+                <img src="0a11eaeaa7c947fe47863448e190dadb6c55f28cdb34510a28be9bcfcaaa76ab.png" title="Given Ana ingresa a OpenCart" width="1366"/>
+                <img src="0a11eaeaa7c947fe47863448e190dadb6c55f28cdb34510a28be9bcfcaaa76ab.png" title="Ana opens the Open cart" width="1366"/>
+                <img src="0a11eaeaa7c947fe47863448e190dadb6c55f28cdb34510a28be9bcfcaaa76ab.png" title="And valida que se encuentra en el login de la app" width="1366"/>
+                <img src="0a11eaeaa7c947fe47863448e190dadb6c55f28cdb34510a28be9bcfcaaa76ab.png" title="Then confirmacion1 should be 'OpenCart'" width="1366"/>
+                <img src="fa6a097bdfebc411743b2bee2e5a4cac9283224368b7d0c2c2f9f3c4748c23f3.png" title="When ingresa sus credenciales
+| usuario | contrasena |
+| demo | demo |" width="1366"/>
+                <img src="14c538bf603e0f3721601da1b80e462ba03fed679f4f6c59054052ebaa1acdbd.png" title="Ana enters 'demo' into Escriba su usuario" width="1366"/>
+                <img src="18eae05bea63a5d9ecac5d7ee7cfec55d24cac4c95ae5779f8a7f5a45aea88a5.png" title="Ana enters 'demo' into Escriba su contrase&ntilde;a" width="1366"/>
+                <img src="fa6a097bdfebc411743b2bee2e5a4cac9283224368b7d0c2c2f9f3c4748c23f3.png" title="Ana clicks on Boton de confirmacion de login" width="1366"/>
+                <img src="552f19338116ac0543d6bebf75a6f33fa1ba0fb815e4ac045aec459023e45232.png" title="And Navega por el Menu
+| menu | submenu |
+| Customer | Customer |" width="1366"/>
+                <img src="955f1a316cf82d238a24f0e41ea1f1809aa6d4cb8a79688c86e0056c57b6b5ec.png" title="Ana clicks on Menu Principal" width="1366"/>
+                <img src="552f19338116ac0543d6bebf75a6f33fa1ba0fb815e4ac045aec459023e45232.png" title="Ana clicks on Sub Menu" width="1366"/>
+                <img src="74bf2b354d0feb1d827e33210ceef1e74d9b2b2d2bd56a7f27e5dab382499aba.png" title="And Busca un Cliente por Customer name
+| customername |
+| Ana Maria Colorado Bedoya |" width="1366"/>
+                <img src="aa7aa2c3a8c4defde1b52118013d12f9c147e0b387140e9e6055b2eb3043b518.png" title="Ana enters 'Ana Maria Colorado Bedoya' into Cliente" width="1366"/>
+                <img src="74bf2b354d0feb1d827e33210ceef1e74d9b2b2d2bd56a7f27e5dab382499aba.png" title="Ana clicks on Btn filtrar cliente" width="1366"/>
+                <img src="74bf2b354d0feb1d827e33210ceef1e74d9b2b2d2bd56a7f27e5dab382499aba.png" title="Then Valida la IP de conexion
+| ip |
+| 172.69.206.146 |" width="1366"/>
+                <img src="74bf2b354d0feb1d827e33210ceef1e74d9b2b2d2bd56a7f27e5dab382499aba.png" title="Then validar" width="1366"/>
+                <img src="c8a9b000abcb015225d63bf444c7dcde4fabb761acc4a8dbb4ac43a24a69a933.png" title="Busqueda de cliente exitosa #2: {usuario=demo, contrasena=demo, menu=Customer, submenu=Customer, customername=Alvaro Espinoza, ip=172.70.82.30}" width="1366"/>
+                <img src="0a11eaeaa7c947fe47863448e190dadb6c55f28cdb34510a28be9bcfcaaa76ab.png" title="Given Ana ingresa a OpenCart" width="1366"/>
+                <img src="0a11eaeaa7c947fe47863448e190dadb6c55f28cdb34510a28be9bcfcaaa76ab.png" title="Ana opens the Open cart" width="1366"/>
+                <img src="0a11eaeaa7c947fe47863448e190dadb6c55f28cdb34510a28be9bcfcaaa76ab.png" title="And valida que se encuentra en el login de la app" width="1366"/>
+                <img src="0a11eaeaa7c947fe47863448e190dadb6c55f28cdb34510a28be9bcfcaaa76ab.png" title="Then confirmacion1 should be 'OpenCart'" width="1366"/>
+                <img src="fa6a097bdfebc411743b2bee2e5a4cac9283224368b7d0c2c2f9f3c4748c23f3.png" title="When ingresa sus credenciales
+| usuario | contrasena |
+| demo | demo |" width="1366"/>
+                <img src="14c538bf603e0f3721601da1b80e462ba03fed679f4f6c59054052ebaa1acdbd.png" title="Ana enters 'demo' into Escriba su usuario" width="1366"/>
+                <img src="18eae05bea63a5d9ecac5d7ee7cfec55d24cac4c95ae5779f8a7f5a45aea88a5.png" title="Ana enters 'demo' into Escriba su contrase&ntilde;a" width="1366"/>
+                <img src="fa6a097bdfebc411743b2bee2e5a4cac9283224368b7d0c2c2f9f3c4748c23f3.png" title="Ana clicks on Boton de confirmacion de login" width="1366"/>
+                <img src="552f19338116ac0543d6bebf75a6f33fa1ba0fb815e4ac045aec459023e45232.png" title="And Navega por el Menu
+| menu | submenu |
+| Customer | Customer |" width="1366"/>
+                <img src="a8d7a5f2abfc2daff96022ed4858ca8a353535f26d87428d35092344fef362fa.png" title="Ana clicks on Menu Principal" width="1366"/>
+                <img src="552f19338116ac0543d6bebf75a6f33fa1ba0fb815e4ac045aec459023e45232.png" title="Ana clicks on Sub Menu" width="1366"/>
+                <img src="c8a9b000abcb015225d63bf444c7dcde4fabb761acc4a8dbb4ac43a24a69a933.png" title="And Busca un Cliente por Customer name
+| customername |
+| Alvaro Espinoza |" width="1366"/>
+                <img src="1e9f5c1b0f5304dc22a2f6ad1b91df05cd2a093b383e0d246ff53108720cb7d4.png" title="Ana enters 'Alvaro Espinoza' into Cliente" width="1366"/>
+                <img src="c8a9b000abcb015225d63bf444c7dcde4fabb761acc4a8dbb4ac43a24a69a933.png" title="Ana clicks on Btn filtrar cliente" width="1366"/>
+                <img src="c8a9b000abcb015225d63bf444c7dcde4fabb761acc4a8dbb4ac43a24a69a933.png" title="Then Valida la IP de conexion
+| ip |
+| 172.70.82.30 |" width="1366"/>
+                <img src="c8a9b000abcb015225d63bf444c7dcde4fabb761acc4a8dbb4ac43a24a69a933.png" title="Then validar: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

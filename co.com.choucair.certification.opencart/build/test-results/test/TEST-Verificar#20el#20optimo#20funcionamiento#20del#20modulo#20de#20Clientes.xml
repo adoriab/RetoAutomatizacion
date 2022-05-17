@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Verificar el optimo funcionamiento del modulo de Clientes" tests="4" skipped="0" failures="1" errors="0" timestamp="2022-05-04T21:28:54" hostname="CHMEPPF352QWZ" time="64.841">
+  <properties/>
+  <testcase name="Busqueda de cliente exitosa" classname="Verificar el optimo funcionamiento del modulo de Clientes" time="10.327"/>
+  <testcase name="Busqueda de cliente exitosa" classname="Verificar el optimo funcionamiento del modulo de Clientes" time="10.49"/>
+  <testcase name="Registro de cliente fallido" classname="Verificar el optimo funcionamiento del modulo de Clientes" time="33.393"/>
+  <testcase name="Eliminar un cliente de forma fallida" classname="Verificar el optimo funcionamiento del modulo de Clientes" time="10.616">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at co.com.choucair.certification.opencart.util.MetodosFuncionales.aceptarPopUp(MetodosFuncionales.java:42)
+	at co.com.choucair.certification.opencart.tasks.Eliminar.performAs(Eliminar.java:24)
+	at co.com.choucair.certification.opencart.tasks.Eliminar$$EnhancerByCGLIB$$f44e6030.CGLIB$performAs$0(&lt;generated&gt;)
+	at co.com.choucair.certification.opencart.tasks.Eliminar$$EnhancerByCGLIB$$f44e6030$$FastClassByCGLIB$$964eaeb8.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:361)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at co.com.choucair.certification.opencart.tasks.Eliminar$$EnhancerByCGLIB$$f44e6030.performAs(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:106)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:90)
+	at co.com.choucair.certification.opencart.stepdefinitions.OpenCartStepDefinitions.seleccionaElClienteAEliminar(OpenCartStepDefinitions.java:68)
+	at ✽.Selecciona el cliente a eliminar(src/test/resources/features/adminopencart.feature:63)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[may 04, 2022 4:28:54 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 38657
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1651699736.728][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+may 04, 2022 4:28:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Busqueda de cliente exitosa
+----------------------------------------------------------------------------
+may 04, 2022 4:29:04 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[1651699745.641][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+may 04, 2022 4:29:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Busqueda de cliente exitosa
+----------------------------------------------------------------------------
+may 04, 2022 4:29:15 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[1651699755.993][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+may 04, 2022 4:29:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Registro de cliente fallido
+----------------------------------------------------------------------------
+may 04, 2022 4:29:48 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[1651699789.470][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+may 04, 2022 4:29:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Eliminar un cliente de forma fallida
+---------------------------------------------------------------------
+[Test worker] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Perform as: Ana
+[Test worker] ERROR net.serenitybdd.core.Serenity - 
+]]></system-err>
+</testsuite>

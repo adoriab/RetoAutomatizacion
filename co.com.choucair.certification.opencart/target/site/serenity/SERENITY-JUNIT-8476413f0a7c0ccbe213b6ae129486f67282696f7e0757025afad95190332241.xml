@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Verificar el optimo funcionamiento del modulo de Clientes" skipped="0" tests="4" time="65.32" timestamp="2022-05-04 04:28:54"><testcase name="Busqueda de cliente exitosa"/><testcase name="Registro de cliente fallido"/><testcase name="Eliminar un cliente de forma fallida"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+co.com.choucair.certification.opencart.util.MetodosFuncionales.aceptarPopUp(MetodosFuncionales.java:42)&#13;
+co.com.choucair.certification.opencart.tasks.Eliminar.performAs(Eliminar.java:24)&#13;
+co.com.choucair.certification.opencart.stepdefinitions.OpenCartStepDefinitions.seleccionaElClienteAEliminar(OpenCartStepDefinitions.java:68)&#13;
+✽.Selecciona el cliente a eliminar(src/test/resources/features/adminopencart.feature:63)&#13;
+</system-err></testcase></testsuite>
